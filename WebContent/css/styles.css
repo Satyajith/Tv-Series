@@ -1,0 +1,92 @@
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 210px;
+}
+div.grow img {
+    width: 150px;
+    height: 150px;
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+    
+}
+.caption {
+    display: block;
+}
+
+.series{
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+}
+
+.series:hover {
+	transform: scale(1.25);
+
+	}
+.grow img:hover {
+   border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+div.grow {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 220px;
+}	
+
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+
+body{
+    /*background:url('https://upload.wikimedia.org/wikipedia/commons/8/84/8_mm_Kodak_safety_film_reel_03.jpg');*/
+    padding:5px;
+    background-size:100%;
+    background-repeat:no-repeat;   
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 24px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:10px;
+}
+
+#login-dp .form-group {
+    margin-bottom: 20px;
+}
+#login-dp .row{
+	margin-right:0px;
+	margin-left:0px;
+}
+
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
